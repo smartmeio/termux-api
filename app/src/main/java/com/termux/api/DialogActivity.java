@@ -668,6 +668,7 @@ public class DialogActivity extends AppCompatActivity {
                 textView.setPadding(56, 56, 56, 56);
                 textView.setOnClickListener(view -> {
                     InputResult result = new InputResult();
+                    Log.e("ERROR", "setupDialog: "+result);
                     result.text = values[j];
                     result.index = j;
                     dialog.dismiss();

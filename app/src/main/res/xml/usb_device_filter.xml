@@ -1,0 +1,6 @@
+<resources>
+    <!--ARANCINO MIGNON -->
+    <usb-device vendor-id="1240" product-id="60633" />
+    <!--ARANCINO -->
+    <usb-device vendor-id="1240" product-id="60634" />
+</resources>
